@@ -61,7 +61,7 @@ The load balancer's configuration can be modified by editing the `main()` functi
 Here is an example:
 
 Configure the number of servers you want along with their domains
-```json
+```go
 servers := []Server{
 		newSimpleServer("SERVER_1"),
 		newSimpleServer("SERVER_2"),
@@ -70,7 +70,7 @@ servers := []Server{
 ```
 
 Configure the port you want Load Balancer to listen on
-```json
+```go
 lb := NewLoadBalancer("PORT", servers)
 ```
 
