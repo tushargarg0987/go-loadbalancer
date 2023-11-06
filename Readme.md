@@ -30,7 +30,7 @@ Before using this load balancer, you need to have the following prerequisites:
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/load-balancer-go.git
+   git clone https://github.com/tushargarg0987/go-loadbalancer.git
    ```
 
 2. Navigate to that directory:
